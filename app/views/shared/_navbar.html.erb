@@ -1,7 +1,9 @@
-<div>
-  <%= link_to "one", pages_one_path%> 
-  <%= link_to "two", pages_two_path %> 
-  <%= link_to "three", pages_three_path %>
-</div>
-<hr/>
-<br/>
+<nav class="navbar navbar-inverse navbar-dark bg-dark h4">
+  <ul>
+    <span><%=link_to "One", pages_one_path %></span>
+    <span><%=link_to "Two", pages_two_path %></span>
+    <span><%= link_to "Three", pages_three_path %></span>
+  </ul>
+</nav>
+<hr />
+<br />
